@@ -1,0 +1,42 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 win64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do Quartus_Ejercicios_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap work rtl_work 
+# Copying d:/intelfpga_lite/24.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {D:/Users/ASUS/Quartus_ejercicios/src/LAB1/ALU.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 21:47:48 on Jun 07,2025
+# vcom -reportprogress 300 -2008 -work work D:/Users/ASUS/Quartus_ejercicios/src/LAB1/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture behavior of ALU
+# -- Compiling entity DECOD_7SEG
+# -- Compiling architecture Behavioral of DECOD_7SEG
+# End time: 21:47:49 on Jun 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+

@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/ASUS/Quartus_ejercicios/simulation/questa
+Ealu
+Z1 w1749343625
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8D:/Users/ASUS/Quartus_ejercicios/src/LAB1/ALU.vhd
+Z6 FD:/Users/ASUS/Quartus_ejercicios/src/LAB1/ALU.vhd
+l0
+L7 1
+Vkjz@HgYd?[<Sz=iB;3T^P1
+!s100 NoA0Ji_2G8ZKaiO@I<ne22
+Z7 OL;C;2024.3;79
+33
+Z8 !s110 1749350869
+!i10b 1
+Z9 !s108 1749350868.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|D:/Users/ASUS/Quartus_ejercicios/src/LAB1/ALU.vhd|
+!s107 D:/Users/ASUS/Quartus_ejercicios/src/LAB1/ALU.vhd|
+!i113 0
+Z11 o-2008 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 kjz@HgYd?[<Sz=iB;3T^P1
+!i122 0
+l20
+L19 55
+VHjmGZVTU<OS2>SK1TS>7K3
+!s100 B^FX^PPGLW6XC@>>MR7g43
+R7
+33
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 D:/Users/ASUS/Quartus_ejercicios/src/LAB1/ALU.vhd|
+!i113 0
+R11
+R12
+Edecod_7seg
+R1
+R3
+R4
+!i122 0
+R0
+R5
+R6
+l0
+L81 1
+Vl]LR:hY77T3dK=fHeaWIZ0
+!s100 oSOhCVAT`Y3>TUM8kL5B01
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+R12
+Abehavioral
+R3
+R4
+DEx4 work 10 decod_7seg 0 22 l]LR:hY77T3dK=fHeaWIZ0
+!i122 0
+l91
+L90 24
+VOEnFD5lOC=P;PC]fRKP9n0
+!s100 Yz@C1HBnKHNFlmj;eHRzJ0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+R12

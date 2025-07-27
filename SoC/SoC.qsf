@@ -19,14 +19,14 @@
 #
 # Quartus Prime
 # Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-# Date created = 19:18:44  April 06, 2025
+# Date created = 09:14:27  July 05, 2025
 #
 # -------------------------------------------------------------------------- #
 #
 # Notes:
 #
 # 1) The default values for assignments are stored in the file:
-#		Quartus_Ejercicios_assignment_defaults.qdf
+#		SoC_assignment_defaults.qdf
 #    If this file doesn't exist, see file:
 #		assignment_defaults.qdf
 #
@@ -37,62 +37,28 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "MAX 10"
-set_global_assignment -name DEVICE 10M50DAF484C7G
-set_global_assignment -name TOP_LEVEL_ENTITY Registro_Contador
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY SoC
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 24.1STD.0
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:18:44  APRIL 06, 2025"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:14:27  JULY 05, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "24.1std.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
-set_global_assignment -name EDA_SIMULATION_TOOL "QuestaSim (Verilog)"
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name FLOW_ENABLE_POWER_ANALYZER ON
-set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE "12.5 %"
-set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
-set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
-set_location_assignment PIN_B7 -to A[7]
-set_global_assignment -name SOURCE_FILE Quartus_Ejercicios.qsf
-set_global_assignment -name SOURCE_FILE Quartus_Ejercicios.qpf
-set_global_assignment -name VHDL_FILE src/MICROPROCESADOR/Proyecto.vhd
-set_global_assignment -name VHDL_FILE src/LAB1/Lab1.vhd
-set_global_assignment -name VHDL_FILE src/ejercicio1.vhd
-set_global_assignment -name VHDL_FILE src/Semana_4.vhd
-set_global_assignment -name VHDL_FILE src/Semana_5.vhd
-set_global_assignment -name VECTOR_WAVEFORM_FILE CIRCUITO_10.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE CIRCUITO_11.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE CIRCUITO_12.vwf
-set_global_assignment -name VHDL_FILE src/Semana_7.vhd
-set_global_assignment -name VHDL_FILE src/Semana_8.vhd
-set_global_assignment -name VECTOR_WAVEFORM_FILE CIRCUITO_14.vwf
-set_global_assignment -name VHDL_FILE src/SUMADOR_4/sumador_bit.vhd
-set_global_assignment -name VHDL_FILE src/SUMADOR_4/main.vhd
-set_global_assignment -name VHDL_FILE src/LAB1/ALU.vhd
-set_global_assignment -name VHDL_FILE src/LAB1/Antirebote.vhd
-set_global_assignment -name VHDL_FILE src/LAB1/Banco_Registros.vhd
-set_global_assignment -name VECTOR_WAVEFORM_FILE Lab1.vwf
-set_global_assignment -name VHDL_FILE src/MICROPROCESADOR/Components.vhd
-set_global_assignment -name VECTOR_WAVEFORM_FILE src/MICROPROCESADOR/Acumulador.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE src/MICROPROCESADOR/Contador.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE UPA_OUT_A.vwf
-set_global_assignment -name MIF_FILE src/MICROPROCESADOR/RAM.mif
-set_global_assignment -name MIF_FILE db/RAM.mif
-set_global_assignment -name MIF_FILE db/ROM.mif
-set_global_assignment -name VECTOR_WAVEFORM_FILE db/IR.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE PROTO_WIRE.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Acumulador1.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE RD.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Contador1.vwf
+set_global_assignment -name BDF_FILE SoC.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AA14 -to A
+set_location_assignment PIN_AA15 -to B
+set_location_assignment PIN_W16 -to C
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

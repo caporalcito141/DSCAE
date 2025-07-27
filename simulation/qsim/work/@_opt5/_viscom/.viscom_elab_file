@@ -1,0 +1,1 @@
+d:/intelfpga_lite/24.1std/questa_fse/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 23544096 work.Registro_Contador_vhd_vec_tst -quiet -auto_acc_if_foreign -work work -L fiftyfivenm -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim -allow_unnamed -o _opt5 -id 1-04ecd8f16783-6875c52d-23a-5804
